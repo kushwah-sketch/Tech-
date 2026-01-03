@@ -14,7 +14,7 @@ class Config(object):
     API_HASH = os.environ.get('API_HASH')
 
     # Your API ID
-    APP_ID = int(os.environ.get('APP_ID'))
+    APP_ID = int(os.environ.get('API_ID')
 
     # Your Bot Token
     BOT_TOKEN = os.environ.get('BOT_TOKEN')
